@@ -16,34 +16,47 @@
     </div>
   </header>
 <!--navbar-->
-  <nav class="flex flex-wrap bg-gray-700 p-3 m-3 justify-around text-2xl font-semibold text-white">
-    <a class="block" href="#">Inicio</a>
-    <a class="block" href="#">Articulos</a>
-    <a class="block" href="#">Contacto</a>
+  <nav id="navbar" class="md:flex md:flex-wrap bg-gray-700 p-3 m-3 justify-around text-2xl font-semibold text-white">
+    <a class="block" href="#inicio">Inicio</a>
+    <a class="block" href="#articulos">Articulos</a>
+    <a class="block" href="#footer">Contacto</a>
   </nav>
+  <a class="fixed right-10 bottom-10 will-change-scroll" href="#navbar"><img class="w-10 h-10" src="img/up.png" alt=""></a>
+<!--inicio-->  
+  <div id="inicio" class="container justify-center md:flex md:flex-wrap p-10 bg-gray-200 mx-auto">
+    <div class="w-40 h-40 border mx-auto md:mx-10">
+      <img src="img/foto.jpg" alt="anthony">
+    </div>
+    <div class="p-5 self-center">
+      <h2 class="text-2xl">Anthony Aldair Cconislla Medina</h2>
+      <ul><p>Estudios:</p></ul>
+      <li>UNSAAC</li>
+      <li>Glorioso Colegio Nacional de Ciencias</li>
+    </div>
+  </div>
 <!--section-->
-  <section class="container max-w-screen-md mx-auto flex flex-wrap">
+  <section id="articulos" class="container max-w-screen-md mx-auto flex flex-wrap">
     <article class="bg-gray-200 p-5 m-5  rounded-xl ">
       <h3 class="text-3xl">Equipo de basket informática</h3>
       <p class="text-xl">fotografía en el día de un partido oficial de el club de basket informática</p>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <img class="border-4 border-gray-700 rounded-xl" src="teaminfo.jpg" alt="equipo informática">
+      <img class="border-4 border-gray-700 rounded-xl" src="img/teaminfo.jpg" alt="equipo informática">
     </article>
     <article class="bg-gray-200 p-5 m-5  rounded-xl">
       <h3 class="text-3xl">Github de Anthony</h3>
       <p class="text-xl">tengo un github activo donde subo trabajos universitarios, proyectos personales y tutoriales realizados</p>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <img class="border-4 border-gray-700 rounded-xl" src="github.png" alt="grupo de juegos">
+      <img class="border-4 border-gray-700 rounded-xl" src="img/github.png" alt="grupo de juegos">
     </article>
     <article class="bg-gray-200 p-5 m-5 rounded-xl">
       <h3 class="text-3xl">Grupo de juegos</h3>
       <p class="text-xl">se realizó un torneo de juegos electrónicos en el año 2017 por la escuela profesional de informática</p>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <img class="border-4 border-gray-700 rounded-xl" src="infogamer.jpg" alt="grupo de juegos">
+      <img class="border-4 border-gray-700 rounded-xl" src="img/infogamer.jpg" alt="grupo de juegos">
     </article>
   </section>
 <!--footer-->
-  <footer class="mx-auto text-center bg-gray-700 py-30 p-5">
+  <footer id="footer" class="mx-auto text-center bg-gray-700 py-30 p-5">
     <form class="text-xl" action="">
         <div class="flex p-5 m-5 bg-gray-600 rounded-xl">
             <label class="w-20 mr-3" for="name">Name</label>
@@ -55,6 +68,12 @@
         </div>
         <button class="block rounded bg-gray-600 p-3 mx-auto">Submit</button>
     </form>
+    <div class="flex flex-wrap justify-center p-5 ">
+      <a target="_blank" href="https://www.facebook.com/anthonyaldair.cconisllamedina.3/"><img class="w-10 h-10 p-1" src="img/fb.webp" alt="fb"></a>
+      <a target="_blank" href="https://www.instagram.com/tonyccm2/"><img class="w-10 h-10 p-1" src="img/ig.png" alt="fb"></a>
+      <a target="_blank" href="#"><img class="w-10 h-10 p-1" src="img/tinder.png" alt="fb"></a>
+      <a target="_blank" href="#"><img class="w-10 h-10 p-1" src="img/tiktok.png" alt="fb"></a>
+    </div>
     <p>Copyright &copy;, todos los derechos reservados.</p>
   </footer>
 </body>
